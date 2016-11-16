@@ -7,7 +7,7 @@ function average(array) {
     return a + b;
   };
   return array.reduce(plus) / array.length;
-}
+};
 
 var byName = {};
 ancestry.forEach(function(person) {
